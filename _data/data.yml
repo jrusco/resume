@@ -1,268 +1,190 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    position: right
+    about: True
+    education: True
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Juan Rusconi
+    tagline: Backend software engineer
+    avatar: profile.png
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    email: jrusco.jobs@pm.me
+    phone: 
+    timezone: America/Buenos_Aires
     citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
+    website: https://github.com/jrusco
+    linkedin: jrusco
+    xing: 
+    github: jrusco
+    telegram:
     gitlab:
     bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow:
     codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    goodreads:
+    mastodon:
+    hackerrank:
+    leetcode:
+    pdf:
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
+          level: Full Professional
 
-        - idiom: French
-          level: Professional
-
-        - idiom: Spanish
-          level: Professional
+        - idiom: Italian
+          level: Elementary
 
     interests:
       title: Interests
       info:
-        - item: Climbing
-          link:
-
-        - item: Snowboarding
-          link:
-
-        - item: Cooking
-          link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Customer oriented Software Engineer with a bias for action. Curious
+      by nature, always looking for new challenges and ways to build
+      simple, robust solutions that provide the best possible value.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Tecnico Superior en Analisis de Sistemas
+        university: Instituto Superior Juan XXIII
+        time: 2009 - 2012
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Análisis de sistemas informáticos/Analista
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
       - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+        time: 2022 - Present
+        company: dLocal
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+            - Developed an asynchronous reporting tool for unified monitoring and alerts of
+              payment refunds across vendors, enhancing visibility for customer support and
+              reducing manual developer workload.
+            - Engineered payment processing integrations within a micro services
+              architecture to ensure high performance during peak demand and effective fail
+              over strategies against third-party down times.
+            - Authored RFC documentation and implemented a new indexing service in
+              Elasticsearch, providing fast and consistent cache for transaction information
+              for client services, utilized company-wide.
+
+      - role: Senior Software Engineer
+        time: 2021 - 2022
+        company: Buenbit
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+            - Own, design and lead a complete backend refactor tasked with managing user
+              financial operations and compliance status, reducing app response times 70%
+              avg and streamlining the addition of new features and tasks automation.
+
+      - role: Senior Software Engineer
+        time: 2021 - 2021
+        company: Elementum
+        details: |
+            - Lead the company's core backend solution team.
+            - Provide engineering perspective to the Product team on build-or-buy decisions.
+            - Work with clients to address high priority issues.
+            - Mentor and sponsor new team members.
+
+      - role: Software Engineer II
+        time: 2019 - 2020
+        company: Elementum
+        details: |
+            - Owned the company's flagship public API, enabling to automatize
+              interactions with the platform and creating a key feature that helped close 40+
+              new deals in 2020.
+            - Created and delivered an email notification service to allow Customer
+              Success to handle requests timely and efficiently.
+            - Refactored critical legacy backend services to allow faster iterations in the
+              development process.
+
+      - role: Software Engineer I
+        time: 2017 - 2019
+        company: Elementum
+        details: |
+            - Designed solution for solving geolocalization requests, halving maintenance costs.
+            - Implemented a microservices ecosystem for onboarding new customers'
+              data, reducing onboarding times from an avg of 6 months to 6 weeks.
+            - Built a message queue library to speed up backend services integration.
+
+      - role: Software Engineer
+        time: 2016 - 2017
+        company: IBM
+        details: |
+            - Collaborated in designing and building from scratch an app for an
+              international banking institution.
+            - Took the lead of a developers team tasked to build a full-stack project for
+              handling real time reports and usage statistics.
+
+      - role: Software Engineer Intern
+        time: 2015 - 2016
+        company: Globant
+        details: |
+            - Took on bug resolution, unit/integration testing, profiling and optimization
+              tasks to improve microservices performance.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Usable Security
+          start: 
+          end: 
+          organization: 
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: 
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+        - name: Software Security
+          start: 
+          end: 
+          organization: 
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: 
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 oss:
     title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro:
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+    intro:
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills &amp; Proficiency
-
+    title: Skills & Proficiency
     toolset:
-      - name: Python & Django
+      - name: Java
         level: 98%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Kafka
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: SQL
+        level: 95%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: AWS
+        level: 90%
+
+      - name: Microservices
+        level: 95%
+
+      - name: Distributed Systems
+        level: 95%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
